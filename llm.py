@@ -25,7 +25,9 @@ Answer:
 """
     return prompt
 
-client = Groq()
+client = Groq(
+    api_key=os.getenv("GROQ_API_KEY")
+)
 
 def ask_llm(prompt):
 
