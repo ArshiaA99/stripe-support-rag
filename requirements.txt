@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+groq
+chromadb
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
